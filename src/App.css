@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* transition: all 0.5s; */
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.neu {
+  padding: 0px 20px;
+  margin: 30px;
+  border-radius: 19px;
+  background: #334155;
+  box-shadow: 10px 10px 20px #232d3b, -10px -10px 20px #43556f;
+}
+
+.neudown {
+  border-radius: 8px;
+  background: #394c60;
+  box-shadow: inset 5px 5px 10px #344557, inset -5px -5px 10px #3e5369;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  opacity: 0.6;
+}
